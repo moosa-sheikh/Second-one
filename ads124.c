@@ -4,7 +4,7 @@ ads124
 #include <wiringPi.h>
 #include <wiringPiSPI.h>
 
-#define ADS124S80_CS_PIN  10
+#define ADS124S80_CS_PIN  25
 
 // SPI channel and speed
 #define SPI_CHANNEL       0

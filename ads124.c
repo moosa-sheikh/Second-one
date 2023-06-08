@@ -11,17 +11,17 @@ ads124
 #define SPI_SPEED         1000000  // 1MHz
 
 // Register addresses
-#define REG_STATUS        0x00
-#define REG_MUX           0x01
-#define REG_ADCON         0x02
-#define REG_DRATE         0x03
-#define REG_IO            0x04
-#define REG_OFC0          0x05
-#define REG_OFC1          0x06
-#define REG_OFC2          0x07
-#define REG_FSC0          0x08
-#define REG_FSC1          0x09
-#define REG_FSC2          0x0A
+#define REG_STATUS        0x01
+#define REG_MUX           0x02
+#define REG_ADCON         0x03
+#define REG_DRATE         0x04
+#define REG_IO            0x10
+#define REG_OFC0          0x0A
+#define REG_OFC1          0x0B
+#define REG_OFC2          0x0C
+#define REG_FSC0          0x0D
+#define REG_FSC1          0x0E
+#define REG_FSC2          0x0F
 
 // Function to write a value to a register
 void ads124s80_write_register(uint8_t reg, uint8_t value) {
